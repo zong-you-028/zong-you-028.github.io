@@ -1,14 +1,13 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Chien-Wen", "Sun (Web Building)"]
-    email = "sshouhua@gmail.com"
-    github = "sshouhua"
-    scholar = "pp0bGY4AAAAJ"
+    name = ["Zong-You", "Lin (Web Building)"]
+    email = "yoyo010528@gmail.com"
+    github = "zong-you-028"
 
     bio_text = f"""
                 <p>
-                    I am a Ph.D. student at the <a href="http://140.113.150.201/" target="_blank">Chaotic Systems and Signal Processing Laboratory (CSSP Lab.)</a> at National Yang Ming Chiao Tung University (NYCU), Taiwan. My research focuses on fuzzy systems, autonomous driving, and generative AI. Representative papers are <span style="background-color:#ffffd0">highlighted</span> below.
+                    I am a master degree student at the <a href="http://140.113.150.201/" target="_blank">Chaotic Systems and Signal Processing Laboratory (CSSP Lab.)</a> at National Yang Ming Chiao Tung University (NYCU), Taiwan. My research focuses on fuzzy systems, autonomous driving, and generative AI. Representative papers are <span style="background-color:#ffffd0">highlighted</span> below.
                 </p>
                 <p>
                     <span style="font-weight: bold;">Bio:</span>
@@ -18,7 +17,6 @@ def get_personal_data():
                     <a href="https://sshouhua.github.io/assets/pdf/cwsun_cv.pdf" target="_blank" style="margin-right: 15px"><i class="fa fa-address-card fa-lg"></i> CV</a>
                     <a href="mailto:{email}" style="margin-right: 15px"><i class="far fa-envelope-open fa-lg"></i> Mail</a>
                     <a href="https://github.com/{github}" target="_blank" style="margin-right: 15px"><i class="fab fa-github fa-lg"></i> GitHub</a>
-                    <a href="https://scholar.google.com/citations?user={scholar}&hl=en" target="_blank" style="margin-right: 15px"><i class="fa-solid fa-graduation-cap"></i> Scholar</a>
 
                 </p>
     """
