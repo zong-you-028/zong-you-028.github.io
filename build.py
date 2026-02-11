@@ -23,7 +23,7 @@ def get_personal_data():
     footer = """
             <div class="col-sm-12" style="">
                 <p>
-                    &copy; Copyright 2025 Chien-Wen Sun. 
+                    &copy; Copyright 2026 Chien-Wen Sun. 
                     Powered by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">m-niemeyer</a>. 
                     Design inspired by <a href="https://kashyap7x.github.io/" target="_blank">Kashyap Chitta</a>.                </p>
             </div>
