@@ -1,7 +1,7 @@
 from pybtex.database.input import bibtex
 
 def get_personal_data():
-    name = ["Zong-You", "Lin (Web Building)"]
+    name = ["Zong-You", "Lin"]
     email = "yoyo010528@gmail.com"
     github = "zong-you-028"
 
@@ -23,7 +23,7 @@ def get_personal_data():
     footer = """
             <div class="col-sm-12" style="">
                 <p>
-                    &copy; Copyright 2026 Chien-Wen Sun. 
+                    &copy; Copyright 2026 Zong-You Lin. 
                     Powered by <a href="https://github.com/m-niemeyer/m-niemeyer.github.io" target="_blank">m-niemeyer</a>. 
                     Design inspired by <a href="https://kashyap7x.github.io/" target="_blank">Kashyap Chitta</a>.                </p>
             </div>
